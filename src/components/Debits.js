@@ -37,8 +37,6 @@ const Debits = (props) => {
 
   };
 
-
-
   // Render the list of Debit items and a form to input new Debit item
   return (
     <div>

@@ -13,7 +13,6 @@ const Credits = (props) => {
       );
     });
   }
-
   const addNewCredit = (credit) => {
     credit.preventDefault();
     const description = credit.target.description.value;
