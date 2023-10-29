@@ -19,6 +19,7 @@ const Debits = (props) => {
     });
   }
 
+  
   const addNewDebit = (debit) => {
     debit.preventDefault();
     const description = debit.target.description.value;
@@ -36,7 +37,6 @@ const Debits = (props) => {
     }
 
   };
-
 
 
   // Render the list of Debit items and a form to input new Debit item

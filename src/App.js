@@ -78,10 +78,9 @@ class App extends Component {
         const accountBalance = this.calculateAccountBalance();
         this.setState({ accountBalance });
       })
-     
+    
      
   }
-
 
   // Update state's currentUser (userName) after "Log In" button is clicked
   mockLogIn = (logInInfo) => {  
