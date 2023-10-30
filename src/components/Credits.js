@@ -41,7 +41,7 @@ const Credits = (props) => {
             {credit.amount !== undefined ? credit.amount.toFixed(2) : 'N/A'} - {credit.description ? credit.description : 'N/A'} - {credit.date}
           </li>
         ))}
-      <br/>
+      
       <AccountBalance accountBalance={accountBalance} />
 
       <form onSubmit={addNewCredit}>
