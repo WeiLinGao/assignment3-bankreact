@@ -29,7 +29,7 @@ const Debits = (props) => {
       const newDebit = {
         id: debits.length + 1,
         description,
-        amount,
+        amount: parseFloat(amount.toFixed(2)),
         date: new Date().toISOString().slice(0, 10)
       };
 
